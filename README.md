@@ -24,8 +24,6 @@ sudo apt install build-essential cmake git libgcc-9-dev libstdc++-9-dev -y
 
 ### Step 2: Clone the Repository
 
-Retrieve the project from GitHub and navigate into the project directory:
-
 ```bash
 git clone https://github.com/ERGO-Code/HiGHS.git
 cd HiGHS
