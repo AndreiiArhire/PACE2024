@@ -1,5 +1,8 @@
 
+
 # UAIC_OCM - An Exact and Heuristic Solver for the One-Sided Crossing Minimization Problem (OCM)
+
+[![DOI](https://zenodo.org/badge/812762567.svg)](https://zenodo.org/doi/10.5281/zenodo.11544701)
 
 This repository provides an exact and heuristic solver for the one-sided crossing minimization problem.
 
@@ -28,6 +31,8 @@ sudo apt install build-essential cmake git libgcc-9-dev libstdc++-9-dev -y
 git clone https://github.com/ERGO-Code/HiGHS.git
 cd HiGHS
 ```
+
+- As of the current setup, the last release version tested and confirmed to work is v1.7.0.
 
 ### Step 3: Build HiGHS
 
@@ -64,7 +69,7 @@ g++ -o heuristic heuristic.cpp
 
 ## Run Application
 
-Both heuristic and exact solvers are built within a single C++ file that reads a one-sided crossing minimization problem instance from stdin and prints the solution to stdout. 
+Both heuristic and exact solvers are built within a single C++ file that reads an instance of one sided crossing minimization problem from stdin and prints the solution to stdout. 
 For the input and output format, please refer to the [PACE challenge web page](https://pacechallenge.org/2024/io/).
 
 ### Running the Exact Solver
